@@ -1,0 +1,64 @@
+@import "layout-styles.css";
+
+#listaProductos{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+  }
+  
+  #carrito{
+    margin: 15px 15px 15px 15px;
+    /* background-color: #C0F5BD ; */
+    color: black;
+    font-size: medium;
+    font: 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, sans-serif'
+  
+  }
+  
+  #btnCompra{
+    margin: 15px 10px 10px 30px;
+    visibility: hidden;
+    width: 280px;
+  }
+  
+  #btnLimpia{
+    margin: 15px 10px 10px 30px;
+    visibility: hidden;
+    width: 280px;
+  }
+  
+  
+  .offcanvas.offcanvas-bottom {
+    height: auto;
+  }
+  
+  
+  fieldset.scheduler-border {
+    border-radius: 10px 10px 10px 10px;
+    border: 1px groove #ddd !important;
+    padding: 0 1.4em 1.4em 1.4em !important;
+    margin: 0 0 1.5em 0 !important;
+  }
+  
+  #iconCar{
+    visibility: hidden;
+  }
+  
+  #seccionVenta{
+    background: #63E6BE;
+    visibility: hidden;
+  }
+
+  .color-default{
+    color: #63E6BE;
+  }
+
+  .color-danger{
+    color: #ee1132;
+  }
+
+  .image-autor{
+    position: relative;  
+    background: transparent; 
+    text-align:right
+  }

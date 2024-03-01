@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "nombre": "Comedor ligero",
+    "descripción": "Articulo de madera de nogal, ligero. ",
+    "precio": 25000,
+    "image": "https://i.imgur.com/DMQHGA0.jpeg"
+  },
+  {
+    "id": 2,
+    "nombre": "Centro de mesa",
+    "descripción": "Artículo moderno, redondo de madera",
+    "precio": 50000,
+    "image": "https://i.imgur.com/NWIJKUj.jpeg"
+  },
+  {
+    "id": 3,
+    "nombre": "Sillón",
+    "descripción": "Artículo confortable de tela suave color azul y patas de madera fresno",
+    "precio": 20000,
+    "image": "https://i.imgur.com/6wkyyIN.jpeg"
+  },
+  {
+    "id": 4,
+    "nombre": "Comedor integral de madera",
+    "descripción": "Artículo de madera de pino, resistente.",
+    "precio": 70000,
+    "image": "https://i.imgur.com/4lTaHfF.jpeg"
+  },
+  {
+    "id": 5,
+    "nombre": "Escritorio profesional",
+    "descripción": "Artículo de madera, fresno. ",
+    "precio": 40000,
+    "image": "https://i.imgur.com/3oXNBst.jpeg"
+  },
+  {
+    "id": 6,
+    "nombre": "Silla ejecutiva",
+    "descripción": "Artículo ergonómico, color blanco",
+    "precio": 12000,
+    "image": "https://i.imgur.com/3dU0m72.jpeg"
+  }
+]
