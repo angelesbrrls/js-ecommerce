@@ -3,7 +3,7 @@
     Si el valor se coloca en TRUE obtendrá los valores de manera local.
     Para este proyecto se coloca de manera inicial en FALSE para obtener los datos por medio de la API REST.
 */
-const modeTest = true;
+const modeTest = false;
 
 let productos = [];
 let productosSeleccionados = [];
