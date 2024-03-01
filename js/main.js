@@ -4,7 +4,7 @@
     Para este proyecto se coloca de manera inicial en FALSE para obtener los datos por medio de la API REST.
 */
 const modeTest = false;
-
+let url = 'https://api.jsonbin.io/v3/b/65dce7ca266cfc3fde8fae49'
 let productos = [];
 let productosSeleccionados = [];
 let cantidadArticulos = 0;
@@ -35,7 +35,7 @@ async function obtenerDatos() {
       productos = productosLocales;
       localStorage.setItem("productos", JSON.stringify(productos));
     } else {
-      const resp = await fetch("https://api.jsonbin.io/v3/b/65dce7ca266cfc3fde8fae49")
+      const resp = await fetch(url)
         .then((resp) => resp.json())
         .then((data) => {
           localStorage.setItem("productos", JSON.stringify(data.record));
